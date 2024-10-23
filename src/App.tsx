@@ -65,7 +65,7 @@ const App = () => {
 
   if(item.status === "left") {
     return(
-      <Card color="700" setActiveItem={setActiveItem} status="left" index={index} onDropHandler={onDropHandler} order={item.order}/>
+      <Card color="purple-700" setActiveItem={setActiveItem} status="left" index={index} onDropHandler={onDropHandler} order={item.order}/>
     )
   }
 
@@ -80,7 +80,7 @@ const App = () => {
 
   if(item.status === "right") {
     return(
-      <Card color="800" setActiveItem={setActiveItem} status="right" index={index} onDropHandler={onDropHandler} order={item.order}/>
+      <Card color="purple-800" setActiveItem={setActiveItem} status="right" index={index} onDropHandler={onDropHandler} order={item.order}/>
     )
   }
 
